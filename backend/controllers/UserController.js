@@ -100,7 +100,7 @@ module.exports = class UserController {
         } else {
             currentUser = null;
         }
-        res.status(200).send(currentUser);
+       res.status(200).send(currentUser);
     }
 
     static async getUserById(req, res) {
